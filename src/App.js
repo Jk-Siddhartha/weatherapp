@@ -23,7 +23,7 @@ function App() {
           <div>
             <i class="fa-solid fa-temperature-full"></i>
             <p>Temperature : </p>
-            <p>${response.data.main.temp} °C</p>
+            <p>${Math.floor(response.data.main.temp - 273)} °C</p>
           </div>
           <div>
             <i class="fa-solid fa-droplet"></i>
